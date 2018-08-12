@@ -13,16 +13,11 @@ public class MyApp : Gtk.Application {
         main_window.default_width = 300;
         main_window.title = "Hello World";
         
-        // button hello
-        var button_hello = new Gtk.Button.with_label("Click Me");
-        button_hello.margin = 12;
-        button_hello.clicked.connect(() => {
-            button_hello.label = "Hello World!";
-            button_hello.sensitive = false;
-        });
+        // body element
+        var label = new Gtk.Label("Hello Again World!");
 
-        //  main window add
-        main_window.add(button_hello);
+        // show elements
+        main_window.add(label);
         main_window.show_all();
     }
 
