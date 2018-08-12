@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Hello Ela
+GenericName=Hello World App
+Comment=Proves that we can wse vala and Gtk
+Categories=Utility;Education;
+Exec=com.github.pieas-asif.valaTut
+Icon=application-default-icon
+Terminal=false
+Type=Application
+Keywords=Hello;World;Example;
